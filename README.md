@@ -8,6 +8,9 @@ Pre-requisite:
 Implementation:
   - Present State -> Last 4 letters(labels) in the text.
   - Future State -> Letter to be generated.
+  - Fututre state generation
+    - Randomly with probability of selection of each future state in accordance with rationalised data.
+    - If present state not available in rationalised data, generation of ' '.
   
 Algorithm:
   - S1 -> Start
