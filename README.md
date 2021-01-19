@@ -16,4 +16,10 @@ Algorithm:
   - S4 -> Generation of labels on the basis of present state and updation of present state till the length of text reaches the length constraints
   - S5 -> End
   
-  Dataset : 
+  Model Implementation: https://github.com/its7ARC/MarkovChains/blob/main/marcovChains.ipynb
+  
+  Training data: https://github.com/its7ARC/MarkovChains/blob/main/Apna%20time%20Aayega.txt
+  
+  Output of model: https://github.com/its7ARC/MarkovChains/blob/main/output.png
+  
+  
