@@ -8,6 +8,7 @@ Pre-requisite:
 Implementation:
   - Present State -> Last 4 letters(labels) in the text.
   - Future State -> Letter to be generated.
+  - Rationalization of training data -> Every subarray of length 4 and letter after it in training data have been used to compute probability of different future states for all combinations of current state in the training data.
   - Fututre state generation
     - Randomly with probability of selection of each future state on the basis of present state in accordance with rationalised data.
     - If present state not available in rationalised data, generation of 'space' character.
