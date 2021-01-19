@@ -6,13 +6,14 @@ Pre-requisite:
    - Rationalization : Computation of probability of different future states for a particular present state in accordance with training data.
   
 Implementation:
-  - In the implemented algorithm, the last 4 letters(labels) in the text have been considered as the present state and the letter to be generated is the future state.
+  - Present State -> Last 4 letters(labels) in the text.
+  - Future State -> Letter to be generated.
   
 Algorithm:
   - S1 -> Start
   - S2 -> Rationalization of training data
   - S3 -> Input of length constraint, present state of model (First 4 letters)
-  - S4 -> Generation of labels on the basis of present state and updation of present state till the length of text reaches the length constraints.
+  - S4 -> Generation of labels on the basis of present state and updation of present state till the length of text reaches the length constraints
   - S5 -> End
   
   Dataset : 
