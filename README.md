@@ -13,7 +13,7 @@ Algorithm:
   - S1 -> Start
   - S2 -> Rationalization of training data
   - S3 -> Input of length constraint, present state of model (First 4 letters)
-  - S4 -> Generation of labels on the basis of present state and updation of present state till the length of text reaches the length constraints
+  - S4 -> Generation of labels on the basis of present state and updation of present state till length of text reaches the length constraints
   - S5 -> End
   
   Model Implementation: https://github.com/its7ARC/MarkovChains/blob/main/marcovChains.ipynb
